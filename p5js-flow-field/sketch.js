@@ -4,9 +4,9 @@ var mult = 0.005;
 function setup() 
 {
   createCanvas(windowWidth, windowHeight);
-  background(30);
+  background(0);
   angleMode(DEGREES);
-  noiseDetail(1);
+  noiseDetail(5);
 
   // number of points in each row
   var density = 80;
@@ -28,7 +28,7 @@ function setup()
 function draw() 
 {
   noStroke();
-  fill(225);
+  fill(94,0,225);
 
   // iterating through the points
   for (let k = 0; k < points.length; k++) 
