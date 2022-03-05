@@ -29,28 +29,29 @@ function draw()
   fill(col.r, col.g, col.b);
   strokeWeight(2)
   stroke(0);
+  strokeWeight(0.2);
 
   // x-axis, y-axis, width, height
   //ellipse(windowWidth/2, windowHeight/2, 200, 200);
-  ellipse(customPositionX, customPositionY, 200, 200);
+  ellipse(mouseX, mouseY, 200, 200);
 
   // left eye
   fill(black);
   stroke(black);
   strokeWeight(1);
-  ellipse(customPositionX-35, customPositionY-35, 25, 50);
+  ellipse(mouseX-35, mouseY-35, 25, 50);
 
   // right eye
   fill(black);
   stroke(black);
   strokeWeight(1);
-  ellipse(customPositionX+35, customPositionY-35, 25, 50);
+  ellipse(mouseX+35, mouseY-35, 25, 50);
 
   // sad mouth
   noFill();
   stroke(black);
   strokeWeight(6)
   // x, y, w, h, start, stop, [mode], [detail] 
-  arc(customPositionX, customPositionY+60, 80, 70, PI, TWO_PI);
+  arc(mouseX, mouseY+60, 80, 70, PI, TWO_PI);
 
 }
