@@ -1,0 +1,53 @@
+/* Font - Inconsolate */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Poppins&display=swap');
+
+
+html, body 
+{
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+#top-text
+{
+  font-size: 25px;
+  color: white;
+  font-family: 'Inconsolata';
+}
+#top-text-right
+{
+  margin-left: 40%;
+  font-size: 25px;
+  color: white;
+  font-family: 'Inconsolata';
+}
+
+canvas 
+{
+  display: block;
+  margin-bottom: 5%;
+}
+
+bottomtext
+{
+  margin-left: 2%;
+  font-size: 25px;
+  color: white;
+  font-family: 'Inconsolata';
+}
+bottomtext-two
+{
+  margin-left: 20%;
+  font-size: 25px;
+  color: white;
+  font-family: 'Inconsolata';
+}
+bottomtext-three
+{
+  margin-left: 2%;
+  font-size: 25px;
+  color: white;
+  font-family: 'Inconsolata';
+  margin-top: 5%;
+}
