@@ -1,7 +1,7 @@
 function setup() 
 {
-  createCanvas(windowWidth, 400);
-  background(0);
+  createCanvas(windowWidth, 500);
+  
 
   createElement('bottomtext', '/ 07th MARCH 22');
   createElement('bottomtext-two', '/ MUSIC ANACONDA');
@@ -22,11 +22,11 @@ function draw()
   col.g = random(0, 225);
   col.b = random(0, 225);
 
-  fill(0, 0, col.b);
-  //fill(225, 0, 0);
+  //fill(0, 0, col.b);
+  fill(68, 214, 44);
   
-  stroke(0, 0, col.b);
-  //stroke(225, 0, 0);
+  //stroke(0, 0, col.b);
+  //stroke(68, 214, 44);
   
   translate(width / 2, height / 2);
   

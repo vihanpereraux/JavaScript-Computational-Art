@@ -6,20 +6,20 @@ html, body
 {
   margin: 0;
   padding: 0;
-  background: black;
+  background: white;
 }
 
 #top-text
 {
   font-size: 25px;
-  color: white;
+  color: blue;
   font-family: 'Inconsolata';
 }
 #top-text-right
 {
   margin-left: 40%;
   font-size: 25px;
-  color: white;
+  color: blue;
   font-family: 'Inconsolata';
 }
 
@@ -33,21 +33,21 @@ bottomtext
 {
   margin-left: 2%;
   font-size: 25px;
-  color: white;
+  color: blue;
   font-family: 'Inconsolata';
 }
 bottomtext-two
 {
   margin-left: 20%;
   font-size: 25px;
-  color: white;
+  color: blue;
   font-family: 'Inconsolata';
 }
 bottomtext-three
 {
   margin-left: 2%;
   font-size: 25px;
-  color: white;
+  color: blue;
   font-family: 'Inconsolata';
   margin-top: 5%;
 }
