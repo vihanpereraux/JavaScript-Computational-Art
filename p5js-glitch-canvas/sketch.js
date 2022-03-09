@@ -6,14 +6,14 @@ function setup() {
 
 function draw() 
 {
-  var imagePath = "img/lincoln.jpg";
+  var imagePath = "img/Money.jpg";
 
   var params = 
   {
-    amount: random(30, 35),
-    iterations: 20,
-    quality: 30,
-    seed: 25,
+    amount: random(10, 50),
+    iterations: random(4, 7),
+    quality: 70,
+    seed: random(40, 70),
   };
 
   var imgContainerEl = document.getElementById("img-container");
@@ -42,8 +42,6 @@ function draw()
     imageEl.src = src;
   }
 
-  fill(0)
-  ellipse(50, 50, 100, 100);
 }
 
 
