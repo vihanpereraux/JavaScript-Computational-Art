@@ -8,54 +8,53 @@ html, body
   padding: 0;
   background: white;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-.top-text-section
-{
+
+.top-text-section{
   position: relative;
+  margin-top: 2%;
 }
-#top-text
-{
-  font-size: 25px;
-  color: blue;
+#top-text{
+  font-size: 20px;
+  color: black;
   font-family: 'Inconsolata';
+  text-transform: uppercase;
 }
-#top-text-right
-{
-  margin-left: 40%;
-  font-size: 25px;
-  color: blue;
+#top-text-right{
+  font-size: 20px;
+  color: black;
   font-family: 'Inconsolata';
+  text-transform: uppercase;
 }
 
-canvas 
-{
+
+canvas {
   position: relative;
   display: block;
   margin-bottom: 5%;
 }
 
-bottomtext
-{
+
+bottomtext{
   margin-left: 2%;
-  font-size: 25px;
-  color: blue;
+  font-size: 20px;
+  color: black;
   font-family: 'Inconsolata';
   position: relative;
 }
-bottomtext-two
-{
-  margin-left: 20%;
-  font-size: 25px;
-  color: blue;
+bottomtext-two{
+  margin-left: 40%;
+  font-size: 20px;
+  color: black;
   font-family: 'Inconsolata';
   position: relative;
 }
-bottomtext-three
-{
+bottomtext-three{
   margin-left: 2%;
-  font-size: 25px;
-  color: blue;
+  font-size: 20px;
+  color: black;
   font-family: 'Inconsolata';
   position: relative;
   margin-top: 5%;
@@ -63,8 +62,7 @@ bottomtext-three
 
 
 /* Gradient */
-#box
-{
+#box{
   position: absolute;
   z-index: 0;
   width: 100%;
