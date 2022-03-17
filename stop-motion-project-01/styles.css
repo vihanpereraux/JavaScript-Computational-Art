@@ -1,0 +1,27 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#background{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('assets/Cutting Mat.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.chicken-img{
+    position: absolute;
+    width: 30%;
+    top: 0%;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+  }

@@ -2,7 +2,7 @@ function setup()
 {
   createCanvas(638, 500);
 
-  createElement('bottomtext', '/ 14TH MARCH 2022');
+  createElement('bottomtext', '/ 15TH MARCH 2022');
   createElement('bottomtext-two', '/ MUSIC ANACONDA');
 }
 
@@ -11,7 +11,6 @@ var counterm = 0;
 
 function draw() 
 {   
-  counter = counter + 1 ;
 
   // creates an empty object
   var col = {};
@@ -24,10 +23,10 @@ function draw()
   col.b = random(0, 225);
 
   fill(0, 0, col.b);
-  //fill(255, 240, 31);
+  //fill(255, 225, 225);
   
   stroke(0, 0, col.b);
-  //stroke(255, 240, 10);
+  //stroke(190);
 
   translate(width / 2, height / 2);
   rotate(random(20, 50));
@@ -42,38 +41,38 @@ function draw()
   var grad = c.createLinearGradient(random(250,300),random(10,500),random(20,200),random(10,500));
     
   // adding to colors 
-  grad.addColorStop(0, "white");
-  grad.addColorStop(1, "LightSkyBlue");
+  grad.addColorStop(0, "#6DD5FA");
+  grad.addColorStop(1, "red");
   c.fillStyle = grad;
   c.fillRect(0, 0, 638, 500);
 
 
-  // if (counter > 600) 
-  // { 
-  //   // <- right | bottom - top | left -> | top - bottom 
-  //   var grad = c.createLinearGradient(500-counter/5,0,0,0);
-  //   console.log(counter);
-  //   //var grad = c.createLinearGradient(0,0,10+counter/2,0);
+  if (counter > 600) 
+  { 
+    // <- right | bottom - top | left -> | top - bottom 
+    var grad = c.createLinearGradient(500-counter/5,0,0,0);
+    console.log(counter);
+    //var grad = c.createLinearGradient(0,0,10+counter/2,0);
     
-  //   // adding to colors 
-  //   grad.addColorStop(0, "red");
-  //   grad.addColorStop(1, "lightblue");
-  //   c.fillStyle = grad;
-  //   c.fillRect(0, 0, windowWidth, 500);
-  //   if ( counter == 1200){ counter = 0 }
-  // }
-  // else if (counter < 600)
-  // {
-  //   // <- right | bottom - top | left -> | top - bottom 
-  //   //var grad = c.createLinearGradient(0,0,0,100);
-  //   var grad = c.createLinearGradient(0,0,80+counter/2,0);
+    // adding to colors 
+    grad.addColorStop(0, "red");
+    grad.addColorStop(1, "lightblue");
+    c.fillStyle = grad;
+    c.fillRect(0, 0, windowWidth, 500);
+    if ( counter == 1200){ counter = 0 }
+  }
+  else if (counter > 600)
+  {
+    // <- right | bottom - top | left -> | top - bottom 
+    //var grad = c.createLinearGradient(0,0,0,100);
+    var grad = c.createLinearGradient(0,0,80+counter/2,0);
     
-  //   // adding to colors 
-  //   grad.addColorStop(0, "red");
-  //   grad.addColorStop(1, "lightblue");
-  //   c.fillStyle = grad;
-  //   c.fillRect(0, 0, windowWidth, 500);
-  // }
+    // adding to colors 
+    grad.addColorStop(0, "red");
+    grad.addColorStop(1, "lightblue");
+    c.fillStyle = grad;
+    c.fillRect(0, 0, windowWidth, 500);
+  }
 }
 
 
