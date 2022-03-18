@@ -18,10 +18,31 @@ body{
     position: absolute;
     width: 30%;
     top: 0%;
-    animation: mymove 5s infinite;
+    animation: mymove 5s;
+
+    /* source - https://www.wyzant.com/resources/answers/711196/how-do-i-stop-a-keyframe-animation-from-looping-with-css3 */
+    animation-fill-mode: forwards;
 }
 
 @keyframes mymove {
-    from {top: 0px;}
-    to {top: 200px;}
-  }
+    
+    from {
+        top: 0px;
+    }
+
+    25%{
+        top: 150px;
+    }
+
+    50%{
+        top: 300px;
+    }
+
+    75%{
+        top: 450px;
+    }
+
+    to {
+        top: 610px;
+    }
+}
