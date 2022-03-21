@@ -7,13 +7,20 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 
-.ddd{
+.insta-margin{
   width: 50%;
+  background: yellow;
 }
 
+.upper-section{
+  margin-top: 0.6%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
 #heading{
   font-family: coolvetica;
   text-transform: uppercase;
@@ -32,7 +39,6 @@ html, body {
 #img-container img{
   width: 59.4%;
   margin-left: 20.3%;
-  margin-top: 1%;
 }
 
 #bottom-text-01{
@@ -40,10 +46,14 @@ html, body {
   margin-left: 0px !important;  
   margin-top: 2%;
   font-family: poppins;
+  font-weight: 400;
+  color: black;
 }
 #bottom-text-02{
   text-align: right;
   margin-right: 0px !important;
   margin-top: 2%;
   font-family: poppins;
+  font-weight: 400;
+  color: black;
 }
