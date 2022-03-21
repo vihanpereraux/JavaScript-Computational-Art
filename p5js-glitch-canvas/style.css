@@ -17,7 +17,7 @@ html, body {
 #heading{
   font-family: coolvetica;
   text-transform: uppercase;
-  margin-left: -14px !important;
+  margin-left: 0px !important;
 }
 #description{
   font-family: poppins;
@@ -26,7 +26,7 @@ html, body {
   opacity: 1;
   color: black;
   text-align: right;
-  margin-right : -14px !important;
+  margin-right : 0px !important;
 }
 
 #img-container img{
@@ -37,11 +37,13 @@ html, body {
 
 #bottom-text-01{
   text-align: left;
-  margin-left: -15px !important;  
+  margin-left: 0px !important;  
   margin-top: 2%;
+  font-family: poppins;
 }
 #bottom-text-02{
   text-align: right;
-  margin-right: -15px !important;
+  margin-right: 0px !important;
   margin-top: 2%;
+  font-family: poppins;
 }
