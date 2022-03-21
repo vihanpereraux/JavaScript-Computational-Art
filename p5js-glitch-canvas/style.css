@@ -1,12 +1,47 @@
+@font-face {
+  font-family: coolvetica;
+  src: url('fonts/coolvetica rg.otf');
+}
+
+
 html, body {
   margin: 0;
   padding: 0;
 }
 
-canvas {
-  display: block;
+
+.ddd{
+  width: 50%;
+}
+
+#heading{
+  font-family: coolvetica;
+  text-transform: uppercase;
+  margin-left: -14px !important;
+}
+#description{
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 1;
+  color: black;
+  text-align: right;
+  margin-right : -14px !important;
 }
 
 #img-container img{
-  width: 100%;
+  width: 59.4%;
+  margin-left: 20.3%;
+  margin-top: 1%;
+}
+
+#bottom-text-01{
+  text-align: left;
+  margin-left: -15px !important;  
+  margin-top: 2%;
+}
+#bottom-text-02{
+  text-align: right;
+  margin-right: -15px !important;
+  margin-top: 2%;
 }
