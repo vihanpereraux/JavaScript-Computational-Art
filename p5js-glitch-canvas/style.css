@@ -1,13 +1,12 @@
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%;
 }
 
 canvas {
   display: block;
 }
 
-#img-container{
-  
+#img-container img{
+  width: 100%;
 }
