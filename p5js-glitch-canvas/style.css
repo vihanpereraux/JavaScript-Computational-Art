@@ -8,12 +8,13 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background: white;
 }
 
 
 .insta-margin{
   width: 50%;
-  background: yellow;
+  background: white;
 }
 
 .upper-section{
@@ -24,7 +25,7 @@ html, body {
 #heading{
   font-family: coolvetica;
   text-transform: uppercase;
-  margin-left: 0px !important;
+  margin-left: 8px !important;
 }
 #description{
   font-family: poppins;
@@ -33,7 +34,7 @@ html, body {
   opacity: 1;
   color: black;
   text-align: right;
-  margin-right : 0px !important;
+  margin-right : 8px !important;
 }
 
 #img-container img{
@@ -43,7 +44,7 @@ html, body {
 
 #bottom-text-01{
   text-align: left;
-  margin-left: 0px !important;  
+  margin-left: 8px !important;  
   margin-top: 2%;
   font-family: poppins;
   font-weight: 400;
@@ -51,7 +52,7 @@ html, body {
 }
 #bottom-text-02{
   text-align: right;
-  margin-right: 0px !important;
+  margin-right: 8px !important;
   margin-top: 2%;
   font-family: poppins;
   font-weight: 400;
