@@ -7,18 +7,17 @@
 html, body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background: white;
 }
 
 
-.insta-margin{
-  width: 50%;
-  background: white;
+.insta-margin1{
+  width: 700px;
+  height: 700px;
+  background-color: yellow;
 }
 
 .upper-section{
-  margin-top: 0.6%;
   padding-bottom: 1%;
   padding-top: 1%;
 }
@@ -38,8 +37,7 @@ html, body {
 }
 
 #img-container img{
-  width: 59.4%;
-  margin-left: 20.3%;
+  width: 100%;
 }
 
 #bottom-text-01{
