@@ -7,22 +7,23 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: white;
+  background: black;
 }
 
 
 .insta-margin1{
   width: 700px;
   height: 700px;
-  background-color: yellow;
+  background-color: white;
 }
 
+
 .upper-section{
-  padding-bottom: 1%;
-  padding-top: 1%;
+  padding-bottom: 3%;
+  padding-top: 2%;
 }
 #heading{
-  font-family: coolvetica;
+  font-family: Akira Super;
   text-transform: uppercase;
   margin-left: 8px !important;
 }
@@ -36,23 +37,34 @@ html, body {
   margin-right : 8px !important;
 }
 
+
 #img-container img{
   width: 100%;
 }
 
+
+.bottom-section{
+  padding-top: 5%;
+}
 #bottom-text-01{
   text-align: left;
   margin-left: 8px !important;  
   margin-top: 2%;
-  font-family: poppins;
+  font-family: Akira Super;
   font-weight: 400;
-  color: black;
+  color: white;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
 }
 #bottom-text-02{
   text-align: right;
   margin-right: 8px !important;
   margin-top: 2%;
-  font-family: poppins;
+  font-family: Akira Super;
   font-weight: 400;
   color: black;
+}
+
+.p5Canvas{
+  display: hidden;
 }

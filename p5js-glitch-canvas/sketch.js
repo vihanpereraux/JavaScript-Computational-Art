@@ -1,12 +1,13 @@
 function setup() {
   //createCanvas(400, 400);
+  //background(225)
   noLoop();
 }
 
 
 function draw() 
 {
-  var imagePath = "img/Rush.png";
+  var imagePath = "img/Rush02.png";
 
   var params = 
   {
