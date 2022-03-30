@@ -7,7 +7,7 @@ function setup() {
 
 function draw() 
 {
-  var imagePath = "img/Rush02.png";
+  var imagePath = "img/Rush.png";
 
   var params = 
   {
