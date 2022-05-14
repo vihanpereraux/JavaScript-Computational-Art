@@ -2,8 +2,8 @@ function setup()
 {
   createCanvas(638, 500);
 
-  createElement('bottomtext', '/ 15TH MARCH 2022');
-  createElement('bottomtext-two', '/ MUSIC ANACONDA');
+  // createElement('bottomtext', '/ 15TH MARCH 2022');
+  // createElement('bottomtext-two', '/ MUSIC ANACONDA');
 }
 
 var counter = 0;
@@ -11,7 +11,7 @@ var counterm = 0;
 
 function draw() 
 {   
-
+  // background(0)
   // creates an empty object
   var col = {};
   var r = col;
@@ -41,8 +41,8 @@ function draw()
   var grad = c.createLinearGradient(random(250,300),random(10,500),random(20,200),random(10,500));
     
   // adding to colors 
-  grad.addColorStop(0, "#6DD5FA");
-  grad.addColorStop(1, "red");
+  grad.addColorStop(0, "#7de1ff");
+  grad.addColorStop(1, "#fcfcfc");
   c.fillStyle = grad;
   c.fillRect(0, 0, 638, 500);
 
