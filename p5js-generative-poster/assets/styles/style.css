@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  position: absolute !important;
+  transform: translate(-50%) !important;
+  left: 50% !important;
+  z-index: 100 !important;
+  background-image: url("../img/img.png");
+}
+
+.image{
+  position: absolute;
+  z-index: 0 !important;
+  width: 50%;
+}
