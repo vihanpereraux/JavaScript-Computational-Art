@@ -10,32 +10,37 @@ function setup() {
 }
 
 function draw() {
-  drawModuleOne();
-  drawModuleTwo();
-  drawModuleThree();
-  drawModuleFour();
-  drawModuleFive();
-  drawModuleSix();
-  drawModuleSeven();
+  var color = [255];
+  var weight = 2;
+
+  drawModuleOne(color, weight);
+  drawModuleTwo(color, weight);
+  drawModuleThree(color, weight);
+  drawModuleFour(color, weight);
+  drawModuleFive(color, weight);
+  drawModuleSix(color, weight);
+  drawModuleSeven(color, weight);
 }
 
-function drawModuleOne(){
+function drawModuleOne(color, weight){
   translate(width/2, height/2);
   noFill();
-  strokeWeight(2);
-  stroke(255);
+  strokeWeight(weight);
+  stroke(color);
   circle(0, 0, canvasWidth);
 }
 
-function drawModuleTwo(){
+function drawModuleTwo(color, weight){
+  stroke(color);
+  strokeWeight(weight);
   line(0, 0, -(canvasWidth/2), -(canvasHeight/2));
   line(0, 0, (canvasWidth/2), -(canvasHeight/2));
   line(0, 0, 0, (canvasHeight/2));
 }
 
-function drawModuleThree(){
-  strokeWeight(3);
-  stroke(255);
+function drawModuleThree(color, weight){
+  strokeWeight(weight);
+  stroke(color);
 
   var middleXPosition = ((canvasWidth/2))/random(1, 10);
   var middleYPosition = ((canvasHeight/2))/random(2, 12);
@@ -50,8 +55,9 @@ function drawModuleThree(){
   bezier(0, 0, -x2, y2, -x1, y1, -(canvasWidth/2), -(canvasHeight/2));
 }
 
-function drawModuleFour(){
-  strokeWeight(2);
+function drawModuleFour(color, weight){
+  strokeWeight(weight);
+  stroke(color);
   circle(0, -(canvasHeight/4), (canvasWidth/2));
 
   // bottom section
@@ -69,14 +75,18 @@ function drawModuleFour(){
   line(x2, y2, 0, y3); // /
 }
 
-function drawModuleFive(){
+function drawModuleFive(color, weight){
   // stroke(255, 0, 0);
+  stroke(color);
+  strokeWeight(weight);
   line(canvasWidth/2, 0, -(canvasWidth/2), 0);
   line(canvasWidth/2, 0, 0, (canvasWidth/2));
   line(-(canvasWidth/2), 0, 0, (canvasWidth/2));
 }
 
-function drawModuleSix(){
+function drawModuleSix(color, weight){
+  stroke(color);
+  strokeWeight(weight);
   var middleYPosition = (canvasWidth/2)/random(1, 25);
   
   var y1 = random((canvasWidth/2), middleYPosition);
@@ -86,7 +96,10 @@ function drawModuleSix(){
   bezier(0, (canvasWidth/2), -200, y1, -200, y2, 0, 0);
 }
 
-function drawModuleSeven(){
+function drawModuleSeven(color, weight){
+  stroke(color);
+  strokeWeight(weight);
+
   translate(-width/2, -height/2); 
   circle(0, 0, 350);
 
